@@ -1,0 +1,1243 @@
+Hospital Name: Amrutvinayak Hospital
+1.	Doctor Name: Dr. Rahul Deshmukh
+ Department / Specialization: General Medicine – 12 years
+ Contact Number: +91 9876543210
+ Email Address: rahul.d@amrutvinayak.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Meera Joshi
+ Department / Specialization: Pediatrics – 8 years
+ Contact Number: +91 9876543211
+ Email Address: meera.j@amrutvinayak.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹400
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Sandeep Kulkarni
+ Department / Specialization: Orthopedics – 15 years
+ Contact Number: +91 9876543212
+ Email Address: sandeep.k@amrutvinayak.com
+ Qualifications: MBBS, MS (Orthopedics)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Tue-Sat, 10:00 AM – 5:00 PM
+
+Hospital Name: Ankur Maternity Home & Diagnostic Centre
+1.	Doctor Name: Dr. Priya Patil
+ Department / Specialization: Obstetrics & Gynecology – 10 years
+ Contact Number: +91 9876543220
+ Email Address: priya.p@ankurmaternity.com
+ Qualifications: MBBS, MS (OBGYN)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 9:00 AM – 2:00 PM
+2.	Doctor Name: Dr. Nikhil More
+ Department / Specialization: Pediatrics – 7 years
+ Contact Number: +91 9876543221
+ Email Address: nikhil.m@ankurmaternity.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹400
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Seema Rathi
+ Department / Specialization: Radiology – 12 years
+ Contact Number: +91 9876543222
+ Email Address: seema.r@ankurmaternity.com
+ Qualifications: MBBS, MD (Radiology)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 5:00 PM
+
+Hospital Name: Ashwini Accident Multispeciality Hospital
+1.	Doctor Name: Dr. Arjun Patankar
+ Department / Specialization: Trauma & Emergency – 14 years
+ Contact Number: +91 9876543230
+ Email Address: arjun.p@ashwinihospital.com
+ Qualifications: MBBS, MD (Emergency Medicine)
+ Consultation Fee: ₹700
+ Visiting Hours / Timings: 24x7
+2.	Doctor Name: Dr. Kavita Desai
+ Department / Specialization: General Surgery – 10 years
+ Contact Number: +91 9876543231
+ Email Address: kavita.d@ashwinihospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Sameer Kulkarni
+ Department / Specialization: Orthopedics – 12 years
+ Contact Number: +91 9876543232
+ Email Address: sameer.k@ashwinihospital.com
+ Qualifications: MBBS, MS (Orthopedics)
+ Consultation Fee: ₹650
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 5:00 PM
+
+Hospital Name: Birla Superspeciality Eye Hospital
+1.	Doctor Name: Dr. Ritu Sharma
+ Department / Specialization: Ophthalmology – 9 years
+ Contact Number: +91 9876543240
+ Email Address: ritu.s@birlaeye.com
+ Qualifications: MBBS, MS (Ophthalmology)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 3:00 PM
+2.	Doctor Name: Dr. Anil Verma
+ Department / Specialization: Retina Specialist – 11 years
+ Contact Number: +91 9876543241
+ Email Address: anil.v@birlaeye.com
+ Qualifications: MBBS, DNB (Ophthalmology)
+ Consultation Fee: ₹700
+ Visiting Hours / Timings: Mon-Sat, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Pooja Kulkarni
+ Department / Specialization: Pediatric Ophthalmology – 8 years
+ Contact Number: +91 9876543242
+ Email Address: pooja.k@birlaeye.com
+ Qualifications: MBBS, DNB (Ophthalmology)
+ Consultation Fee: ₹550
+ Visiting Hours / Timings: Mon-Fri, 11:00 AM – 3:00 PM
+
+Hospital Name: Curie Manavata Cancer Centre
+1.	Doctor Name: Dr. Neha Patil
+ Department / Specialization: Oncology – 12 years
+ Contact Number: +91 9876543250
+ Email Address: neha.p@curiemanavata.com
+ Qualifications: MBBS, MD (Oncology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Rohit Sharma
+ Department / Specialization: Radiation Oncology – 10 years
+ Contact Number: +91 9876543251
+ Email Address: rohit.s@curiemanavata.com
+ Qualifications: MBBS, DMRT
+ Consultation Fee: ₹900
+ Visiting Hours / Timings: Mon-Fri, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Anjali Deshmukh
+ Department / Specialization: Medical Oncology – 9 years
+ Contact Number: +91 9876543252
+ Email Address: anjali.d@curiemanavata.com
+ Qualifications: MBBS, MD (Medicine)
+ Consultation Fee: ₹850
+ Visiting Hours / Timings: Mon-Sat, 10:00 AM – 4:00 PM
+
+Hospital Name: Deogaonkar Hospital
+1.	Doctor Name: Dr. Suresh Patankar
+ Department / Specialization: General Medicine – 15 years
+ Contact Number: +91 9876543260
+ Email Address: suresh.p@deogaonkar.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Meenal Joshi
+ Department / Specialization: ENT – 10 years
+ Contact Number: +91 9876543261
+ Email Address: meenal.j@deogaonkar.com
+ Qualifications: MBBS, MS (ENT)
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Rajesh Kulkarni
+ Department / Specialization: Cardiology – 12 years
+ Contact Number: +91 9876543262
+ Email Address: rajesh.k@deogaonkar.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹700
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Dr. Bagul Hospital
+1.	Doctor Name: Dr. Priyanka Bagul
+ Department / Specialization: Gynecology – 11 years
+ Contact Number: +91 9876543270
+ Email Address: priyanka.b@bagulhospital.com
+ Qualifications: MBBS, MS (OBGYN)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 9:00 AM – 2:00 PM
+2.	Doctor Name: Dr. Amit Deshmukh
+ Department / Specialization: General Surgery – 14 years
+ Contact Number: +91 9876543271
+ Email Address: amit.d@bagulhospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Sat, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Sneha Patil
+ Department / Specialization: Pediatrics – 9 years
+ Contact Number: +91 9876543272
+ Email Address: sneha.p@bagulhospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Fri, 11:00 AM – 3:00 PM
+
+Hospital Name: Dr. Bapaye Hospital
+1.	Doctor Name: Dr. Sanjay Bapaye
+ Department / Specialization: Internal Medicine – 16 years
+ Contact Number: +91 9876543280
+ Email Address: sanjay.b@bapayehospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹550
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Radhika Joshi
+ Department / Specialization: Dermatology – 10 years
+ Contact Number: +91 9876543281
+ Email Address: radhika.j@bapayehospital.com
+ Qualifications: MBBS, DDV
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Manoj Kulkarni
+ Department / Specialization: Orthopedics – 12 years
+ Contact Number: +91 9876543282
+ Email Address: manoj.k@bapayehospital.com
+ Qualifications: MBBS, MS (Orthopedics)
+ Consultation Fee: ₹650
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 5:00 PM
+
+Hospital Name: Dr. Dahale Hospital
+1.	Doctor Name: Dr. Prakash Dahale
+ Department / Specialization: Cardiology – 14 years
+ Contact Number: +91 9876543290
+ Email Address: prakash.d@dahalehospital.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹700
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Sunita Patil
+ Department / Specialization: General Medicine – 11 years
+ Contact Number: +91 9876543291
+ Email Address: sunita.p@dahalehospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Rajesh More
+ Department / Specialization: Orthopedics – 13 years
+ Contact Number: +91 9876543292
+ Email Address: rajesh.m@dahalehospital.com
+ Qualifications: MBBS, MS (Orthopedics)
+ Consultation Fee: ₹650
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 5:00 PM
+
+Hospital Name: Dr. Pimparikar Hospital
+1.	Doctor Name: Dr. Neeta Pimparikar
+ Department / Specialization: Obstetrics & Gynecology – 12 years
+ Contact Number: +91 9876543300
+ Email Address: neeta.p@pimparikarhospital.com
+ Qualifications: MBBS, MS (OBGYN)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 9:00 AM – 2:00 PM
+2.	Doctor Name: Dr. Suresh Kulkarni
+ Department / Specialization: General Surgery – 14 years
+ Contact Number: +91 9876543301
+ Email Address: suresh.k@pimparikarhospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Sat, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Anjali Joshi
+ Department / Specialization: Pediatrics – 10 years
+ Contact Number: +91 9876543302
+ Email Address: anjali.j@pimparikarhospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Fri, 11:00 AM – 3:00 PM
+Hospital Name: Dr. Suryawanshi Eye Hospital
+1.	Doctor Name: Dr. Rajesh Suryawanshi
+ Department / Specialization: Ophthalmology – 13 years
+ Contact Number: +91 9876543310
+ Email Address: rajesh.s@suryaeye.com
+ Qualifications: MBBS, MS (Ophthalmology)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Pooja Deshmukh
+ Department / Specialization: Cataract Specialist – 9 years
+ Contact Number: +91 9876543311
+ Email Address: pooja.d@suryaeye.com
+ Qualifications: MBBS, DNB (Ophthalmology)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Sat, 10:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Anil Patil
+ Department / Specialization: Retina Specialist – 11 years
+ Contact Number: +91 9876543312
+ Email Address: anil.p@suryaeye.com
+ Qualifications: MBBS, DNB (Ophthalmology)
+ Consultation Fee: ₹650
+ Visiting Hours / Timings: Mon-Fri, 11:00 AM – 4:00 PM
+
+Hospital Name: Gaurav Accident Hospital
+1.	Doctor Name: Dr. Sameer Gaurav
+ Department / Specialization: Trauma & Emergency – 14 years
+ Contact Number: +91 9876543320
+ Email Address: sameer.g@gauravhospital.com
+ Qualifications: MBBS, MD (Emergency Medicine)
+ Consultation Fee: ₹700
+ Visiting Hours / Timings: 24x7
+2.	Doctor Name: Dr. Kavita More
+ Department / Specialization: Orthopedics – 12 years
+ Contact Number: +91 9876543321
+ Email Address: kavita.m@gauravhospital.com
+ Qualifications: MBBS, MS (Orthopedics)
+ Consultation Fee: ₹650
+ Visiting Hours / Timings: Mon-Sat, 10:00 AM – 5:00 PM
+3.	Doctor Name: Dr. Rohan Patil
+ Department / Specialization: General Surgery – 10 years
+ Contact Number: +91 9876543322
+ Email Address: rohan.p@gauravhospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Healing Touch Angiography & Cardiac Surgery Centre Pvt. Ltd.
+1.	Doctor Name: Dr. Anil Rathi
+ Department / Specialization: Cardiology – 15 years
+ Contact Number: +91 9876543330
+ Email Address: anil.r@healingtouch.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Neha Kulkarni
+ Department / Specialization: Cardiothoracic Surgery – 12 years
+ Contact Number: +91 9876543331
+ Email Address: neha.k@healingtouch.com
+ Qualifications: MBBS, MCh (Cardiothoracic Surgery)
+ Consultation Fee: ₹900
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Suresh Patil
+ Department / Specialization: Interventional Cardiology – 14 years
+ Contact Number: +91 9876543332
+ Email Address: suresh.p@healingtouch.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹850
+ Visiting Hours / Timings: Mon-Fri, 11:00 AM – 4:00 PM
+
+Hospital Name: Jantara Hospital
+1.	Doctor Name: Dr. Priya Rathi
+ Department / Specialization: General Medicine – 12 years
+ Contact Number: +91 9876543340
+ Email Address: priya.r@jantarahospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Rohit Deshmukh
+ Department / Specialization: Pediatrics – 10 years
+ Contact Number: +91 9876543341
+ Email Address: rohit.d@jantarahospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Anjali Patil
+ Department / Specialization: Surgery – 11 years
+ Contact Number: +91 9876543342
+ Email Address: anjali.p@jantarahospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Joshi Nursing Home
+1.	Doctor Name: Dr. Sunita Joshi
+ Department / Specialization: Gynecology – 13 years
+ Contact Number: +91 9876543350
+ Email Address: sunita.j@joshihome.com
+ Qualifications: MBBS, MS (OBGYN)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 9:00 AM – 2:00 PM
+2.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: General Medicine – 12 years
+ Contact Number: +91 9876543351
+ Email Address: ramesh.p@joshihome.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Sat, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Neha More
+ Department / Specialization: Pediatrics – 9 years
+ Contact Number: +91 9876543352
+ Email Address: neha.m@joshihome.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Fri, 11:00 AM – 3:00 PM
+
+Hospital Name: Karandikar Hospital
+1.	Doctor Name: Dr. Anil Karandikar
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543360
+ Email Address: anil.k@karandikar.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya Patil
+ Department / Specialization: Pediatrics – 11 years
+ Contact Number: +91 9876543361
+ Email Address: priya.p@karandikar.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Suresh More
+ Department / Specialization: Orthopedics – 13 years
+ Contact Number: +91 9876543362
+ Email Address: suresh.m@karandikar.com
+ Qualifications: MBBS, MS (Orthopedics)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 5:00 PM
+
+Hospital Name: Krishna Hospital & Critical Care Centre
+1.	Doctor Name: Dr. Rohit Krishna
+ Department / Specialization: Critical Care – 15 years
+ Contact Number: +91 9876543370
+ Email Address: rohit.k@krishnahospital.com
+ Qualifications: MBBS, MD (Critical Care)
+ Consultation Fee: ₹700
+ Visiting Hours / Timings: 24x7
+2.	Doctor Name: Dr. Neha More
+ Department / Specialization: General Medicine – 12 years
+ Contact Number: +91 9876543371
+ Email Address: neha.m@krishnahospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Anil Patil
+ Department / Specialization: Cardiology – 14 years
+ Contact Number: +91 9876543372
+ Email Address: anil.p@krishnahospital.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Kshitij Endoscopy Centre
+1.	Doctor Name: Dr. Sanjay Kshitij
+ Department / Specialization: Gastroenterology – 12 years
+ Contact Number: +91 9876543380
+ Email Address: sanjay.k@kshitijendoscopy.com
+ Qualifications: MBBS, MD (Gastroenterology)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Endoscopy Specialist – 10 years
+ Contact Number: +91 9876543381
+ Email Address: priya.m@kshitijendoscopy.com
+ Qualifications: MBBS, DM (Gastroenterology)
+ Consultation Fee: ₹650
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: General Medicine – 13 years
+ Contact Number: +91 9876543382
+ Email Address: ramesh.p@kshitijendoscopy.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Kute Eye Hospital
+1.	Doctor Name: Dr. Hari Kute
+ Department / Specialization: Ophthalmology – 14 years
+ Contact Number: +91 9876543390
+ Email Address: hari.k@kuteeye.com
+ Qualifications: MBBS, MS (Ophthalmology)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Sneha Kulkarni
+ Department / Specialization: Retina Specialist – 11 years
+ Contact Number: +91 9876543391
+ Email Address: sneha.k@kuteeye.com
+ Qualifications: MBBS, DNB (Ophthalmology)
+ Consultation Fee: ₹650
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Anil Patil
+ Department / Specialization: Pediatric Ophthalmology – 9 years
+ Contact Number: +91 9876543392
+ Email Address: anil.p@kuteeye.com
+ Qualifications: MBBS, DNB (Ophthalmology)
+ Consultation Fee: ₹550
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 3:00 PM
+
+Hospital Name: Lakshmi Clinic and Hospital
+1.	Doctor Name: Dr. Vijay Lakshmi
+ Department / Specialization: General Medicine – 13 years
+ Contact Number: +91 9876543400
+ Email Address: vijay.l@lakshmihospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Pediatrics – 10 years
+ Contact Number: +91 9876543401
+ Email Address: priya.m@lakshmihospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Suresh Patil
+ Department / Specialization: ENT – 12 years
+ Contact Number: +91 9876543402
+ Email Address: suresh.p@lakshmihospital.com
+ Qualifications: MBBS, MS (ENT)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Life Care Hospital
+1.	Doctor Name: Dr. Anjali More
+ Department / Specialization: Cardiology – 14 years
+ Contact Number: +91 9876543410
+ Email Address: anjali.m@lifecarehospital.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Rahul Patil
+ Department / Specialization: General Medicine – 12 years
+ Contact Number: +91 9876543411
+ Email Address: rahul.p@lifecarehospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Sat, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Meera Joshi
+ Department / Specialization: Pediatrics – 9 years
+ Contact Number: +91 9876543412
+ Email Address: meera.j@lifecarehospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Fri, 11:00 AM – 3:00 PM
+
+Hospital Name: Maharshi Heart & Critical Care Hospital
+1.	Doctor Name: Dr. Sanjay Maharshi
+ Department / Specialization: Cardiology – 15 years
+ Contact Number: +91 9876543420
+ Email Address: sanjay.m@maharshihospital.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹850
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Neha Patil
+ Department / Specialization: Critical Care – 12 years
+ Contact Number: +91 9876543421
+ Email Address: neha.p@maharshihospital.com
+ Qualifications: MBBS, MD (Critical Care)
+ Consultation Fee: ₹700
+ Visiting Hours / Timings: 24x7
+3.	Doctor Name: Dr. Ramesh More
+ Department / Specialization: General Medicine – 13 years
+ Contact Number: +91 9876543422
+ Email Address: ramesh.m@maharshihospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Maher Hospital
+1.	Doctor Name: Dr. Priya Maher
+ Department / Specialization: Gynecology – 12 years
+ Contact Number: +91 9876543430
+ Email Address: priya.m@maherhospital.com
+ Qualifications: MBBS, MS (OBGYN)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 9:00 AM – 2:00 PM
+2.	Doctor Name: Dr. Anil Patil
+ Department / Specialization: General Surgery – 14 years
+ Contact Number: +91 9876543431
+ Email Address: anil.p@maherhospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Sat, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Meena More
+ Department / Specialization: Pediatrics – 11 years
+ Contact Number: +91 9876543432
+ Email Address: meena.m@maherhospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Fri, 11:00 AM – 3:00 PM
+
+Hospital Name: Malegaon Medical Research Foundation Pvt. Ltd.
+1.	Doctor Name: Dr. Ramesh Malegaon
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543440
+ Email Address: ramesh.m@mmrf.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Neha Patil
+ Department / Specialization: Pediatrics – 10 years
+ Contact Number: +91 9876543441
+ Email Address: neha.p@mmrf.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Anil More
+ Department / Specialization: Orthopedics – 13 years
+ Contact Number: +91 9876543442
+ Email Address: anil.m@mmrf.com
+ Qualifications: MBBS, MS (Orthopedics)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 5:00 PM
+
+Hospital Name: MVPA Vasantrao Pawar Medical College
+1.	Doctor Name: Dr. Sanjay Pawar
+ Department / Specialization: Medicine – 16 years
+ Contact Number: +91 9876543450
+ Email Address: sanjay.p@mvpa.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya Deshmukh
+ Department / Specialization: Pediatrics – 12 years
+ Contact Number: +91 9876543451
+ Email Address: priya.d@mvpa.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh More
+ Department / Specialization: Surgery – 14 years
+ Contact Number: +91 9876543452
+ Email Address: ramesh.m@mvpa.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Navsanjeevani Hospital
+1.	Doctor Name: Dr. Anil Navsanjeevani
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543460
+ Email Address: anil.n@navsanjeevani.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Neha Patil
+ Department / Specialization: Pediatrics – 10 years
+ Contact Number: +91 9876543461
+ Email Address: neha.p@navsanjeevani.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh More
+ Department / Specialization: Orthopedics – 13 years
+ Contact Number: +91 9876543462
+ Email Address: ramesh.m@navsanjeevani.com
+ Qualifications: MBBS, MS (Orthopedics)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 5:00 PM
+
+Hospital Name: Nelson Memorial Children Hospital
+1.	Doctor Name: Dr. Priya Nelson
+ Department / Specialization: Pediatrics – 12 years
+ Contact Number: +91 9876543470
+ Email Address: priya.n@nelsonchildren.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Neonatology – 11 years
+ Contact Number: +91 9876543471
+ Email Address: ramesh.p@nelsonchildren.com
+ Qualifications: MBBS, DCH, Neonatology Certification
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Anjali More
+ Department / Specialization: Pediatric Surgery – 9 years
+ Contact Number: +91 9876543472
+ Email Address: anjali.m@nelsonchildren.com
+ Qualifications: MBBS, MS (Pediatric Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Sat, 10:00 AM – 4:00 PM
+
+Hospital Name: Om Hospital
+1.	Doctor Name: Dr. Anil Omkar
+ Department / Specialization: General Medicine – 15 years
+ Contact Number: +91 9876543480
+ Email Address: anil.o@omhospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Neha Patil
+ Department / Specialization: Gynecology – 12 years
+ Contact Number: +91 9876543481
+ Email Address: neha.p@omhospital.com
+ Qualifications: MBBS, MS (OBGYN)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 9:00 AM – 2:00 PM
+3.	Doctor Name: Dr. Ramesh Kulkarni
+ Department / Specialization: Surgery – 14 years
+ Contact Number: +91 9876543482
+ Email Address: ramesh.k@omhospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+
+Hospital Name: Prasanna Balrugnalay
+1.	Doctor Name: Dr. Anjali Prasanna
+ Department / Specialization: Pediatrics – 12 years
+ Contact Number: +91 9876543490
+ Email Address: anjali.p@prasannabalrugnalay.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Ramesh More
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543491
+ Email Address: ramesh.m@prasannabalrugnalay.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Priya Patil
+ Department / Specialization: Neonatology – 10 years
+ Contact Number: +91 9876543492
+ Email Address: priya.p@prasannabalrugnalay.com
+ Qualifications: MBBS, DCH, Neonatology Certification
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+
+Hospital Name: Rajebahadur Hospital & Research Centre Pvt. Ltd.
+1.	Doctor Name: Dr. Sanjay Rajebahadur
+ Department / Specialization: Cardiology – 15 years
+ Contact Number: +91 9876543500
+ Email Address: sanjay.r@rajebahadur.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Neha More
+ Department / Specialization: General Medicine – 12 years
+ Contact Number: +91 9876543501
+ Email Address: neha.m@rajebahadur.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Surgery – 14 years
+ Contact Number: +91 9876543502
+ Email Address: ramesh.p@rajebahadur.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Ramalayam Hospital
+1.	Doctor Name: Dr. Anil Ramalayam
+ Department / Specialization: Orthopedics – 13 years
+ Contact Number: +91 9876543510
+ Email Address: anil.r@ramalayamhospital.com
+ Qualifications: MBBS, MS (Orthopedics)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 5:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: General Medicine – 11 years
+ Contact Number: +91 9876543511
+ Email Address: priya.m@ramalayamhospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Sat, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Pediatrics – 10 years
+ Contact Number: +91 9876543512
+ Email Address: ramesh.p@ramalayamhospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Fri, 11:00 AM – 3:00 PM
+
+Hospital Name: Sai Hospital
+1.	Doctor Name: Dr. Sanjay Sai
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543520
+ Email Address: sanjay.s@saihospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Neha Patil
+ Department / Specialization: Cardiology – 12 years
+ Contact Number: +91 9876543521
+ Email Address: neha.p@saihospital.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Ramesh More
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543522
+ Email Address: ramesh.m@saihospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Sanjeevani Hospital
+1.	Doctor Name: Dr. Anil Sanjeevani
+ Department / Specialization: General Medicine – 13 years
+ Contact Number: +91 9876543530
+ Email Address: anil.s@sanjeevanihospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Pediatrics – 11 years
+ Contact Number: +91 9876543531
+ Email Address: priya.m@sanjeevanihospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Surgery – 12 years
+ Contact Number: +91 9876543532
+ Email Address: ramesh.p@sanjeevanihospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Shivam Eye Hospital
+1.	Doctor Name: Dr. Rajesh Shivam
+ Department / Specialization: Ophthalmology – 13 years
+ Contact Number: +91 9876543540
+ Email Address: rajesh.s@shivameye.com
+ Qualifications: MBBS, MS (Ophthalmology)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Sneha Kulkarni
+ Department / Specialization: Retina Specialist – 11 years
+ Contact Number: +91 9876543541
+ Email Address: sneha.k@shivameye.com
+ Qualifications: MBBS, DNB (Ophthalmology)
+ Consultation Fee: ₹650
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Anil Patil
+ Department / Specialization: Cataract Specialist – 9 years
+ Contact Number: +91 9876543542
+ Email Address: anil.p@shivameye.com
+ Qualifications: MBBS, DNB (Ophthalmology)
+ Consultation Fee: ₹550
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 3:00 PM
+
+Hospital Name: Shree Balaji Super Speciality Hospital
+1.	Doctor Name: Dr. Sanjay Balaji
+ Department / Specialization: Cardiology – 15 years
+ Contact Number: +91 9876543550
+ Email Address: sanjay.b@balajihospital.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Neha More
+ Department / Specialization: Neurology – 12 years
+ Contact Number: +91 9876543551
+ Email Address: neha.m@balajihospital.com
+ Qualifications: MBBS, MD, DM (Neurology)
+ Consultation Fee: ₹850
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: General Surgery – 14 years
+ Contact Number: +91 9876543552
+ Email Address: ramesh.p@balajihospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Shree Saibaba Heart Institute & Research Centre
+1.	Doctor Name: Dr. Anil Saibaba
+ Department / Specialization: Cardiology – 15 years
+ Contact Number: +91 9876543560
+ Email Address: anil.s@saibabaheart.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹850
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya Patil
+ Department / Specialization: Cardiac Surgery – 12 years
+ Contact Number: +91 9876543561
+ Email Address: priya.p@saibabaheart.com
+ Qualifications: MBBS, MCh (Cardiothoracic Surgery)
+ Consultation Fee: ₹900
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh More
+ Department / Specialization: Critical Care – 13 years
+ Contact Number: +91 9876543562
+ Email Address: ramesh.m@saibabaheart.com
+ Qualifications: MBBS, MD (Critical Care)
+ Consultation Fee: ₹700
+ Visiting Hours / Timings: 24x7
+
+
+Hospital Name: Shreeyash Hospital
+1.	Doctor Name: Dr. Ramesh Shreeyash
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543570
+ Email Address: ramesh.s@shreeyashhospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Pediatrics – 12 years
+ Contact Number: +91 9876543571
+ Email Address: priya.m@shreeyashhospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Anil Patil
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543572
+ Email Address: anil.p@shreeyashhospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Six Sigma Medicare & Research Ltd.
+1.	Doctor Name: Dr. Sanjay Sixsigma
+ Department / Specialization: Cardiology – 15 years
+ Contact Number: +91 9876543580
+ Email Address: sanjay.s@sixsigmamedicare.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Neha Patil
+ Department / Specialization: General Medicine – 12 years
+ Contact Number: +91 9876543581
+ Email Address: neha.p@sixsigmamedicare.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Ramesh More
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543582
+ Email Address: ramesh.m@sixsigmamedicare.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Sonawane Heart Care Hospital and Research Centre
+1.	Doctor Name: Dr. Anil Sonawane
+ Department / Specialization: Cardiology – 15 years
+ Contact Number: +91 9876543590
+ Email Address: anil.s@sonawaneheart.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹850
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Cardiac Surgery – 12 years
+ Contact Number: +91 9876543591
+ Email Address: priya.m@sonawaneheart.com
+ Qualifications: MBBS, MCh (Cardiothoracic Surgery)
+ Consultation Fee: ₹900
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Critical Care – 13 years
+ Contact Number: +91 9876543592
+ Email Address: ramesh.p@sonawaneheart.com
+ Qualifications: MBBS, MD (Critical Care)
+ Consultation Fee: ₹700
+ Visiting Hours / Timings: 24x7
+
+Hospital Name: Sonawane Hospital Yeola
+1.	Doctor Name: Dr. Sanjay Yeola
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543600
+ Email Address: sanjay.y@sonawanehospitalyeola.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Neha More
+ Department / Specialization: Pediatrics – 11 years
+ Contact Number: +91 9876543601
+ Email Address: neha.m@sonawanehospitalyeola.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543602
+ Email Address: ramesh.p@sonawanehospitalyeola.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Sujata Birla Hospital & Medical Research Center
+1.	Doctor Name: Dr. Ramesh Birla
+ Department / Specialization: General Medicine – 15 years
+ Contact Number: +91 9876543610
+ Email Address: ramesh.b@sujatabirla.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Cardiology – 12 years
+ Contact Number: +91 9876543611
+ Email Address: priya.m@sujatabirla.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Anil Patil
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543612
+ Email Address: anil.p@sujatabirla.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Sukhatme Maternity Home
+1.	Doctor Name: Dr. Priya Sukhatme
+ Department / Specialization: Gynecology – 12 years
+ Contact Number: +91 9876543620
+ Email Address: priya.s@sukhatmematernity.com
+ Qualifications: MBBS, MS (OBGYN)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 9:00 AM – 2:00 PM
+2.	Doctor Name: Dr. Anil Patil
+ Department / Specialization: Obstetrics – 14 years
+ Contact Number: +91 9876543621
+ Email Address: anil.p@sukhatmematernity.com
+ Qualifications: MBBS, MS (OBGYN)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Ramesh More
+ Department / Specialization: Pediatrics – 11 years
+ Contact Number: +91 9876543622
+ Email Address: ramesh.m@sukhatmematernity.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+
+Hospital Name: Surya Multispeciality Hospitals Pvt. Ltd.
+1.	Doctor Name: Dr. Sanjay Surya
+ Department / Specialization: General Medicine – 15 years
+ Contact Number: +91 9876543630
+ Email Address: sanjay.s@suryahospitals.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Cardiology – 12 years
+ Contact Number: +91 9876543631
+ Email Address: priya.m@suryahospitals.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543632
+ Email Address: ramesh.p@suryahospitals.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Surya Nursing Home
+1.	Doctor Name: Dr. Anil Surya
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543640
+ Email Address: anil.s@suryanursing.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Pediatrics – 12 years
+ Contact Number: +91 9876543641
+ Email Address: priya.m@suryanursing.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543642
+ Email Address: ramesh.p@suryanursing.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Suvichar Hospital
+1.	Doctor Name: Dr. Sanjay Suvichar
+ Department / Specialization: General Medicine – 15 years
+ Contact Number: +91 9876543650
+ Email Address: sanjay.s@suvicharhospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Cardiology – 12 years
+ Contact Number: +91 9876543651
+ Email Address: priya.m@suvicharhospital.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543652
+ Email Address: ramesh.p@suvicharhospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Suyog Hospital
+1.	Doctor Name: Dr. Ramesh Suyog
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543660
+ Email Address: ramesh.s@suyoghospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Pediatrics – 12 years
+ Contact Number: +91 9876543661
+ Email Address: priya.m@suyoghospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Anil Patil
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543662
+ Email Address: anil.p@suyoghospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Tanmayee Hospital
+1.	Doctor Name: Dr. Sanjay Tanmayee
+ Department / Specialization: General Medicine – 15 years
+ Contact Number: +91 9876543670
+ Email Address: sanjay.t@tanmayeehospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Cardiology – 12 years
+ Contact Number: +91 9876543671
+ Email Address: priya.m@tanmayeehospital.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543672
+ Email Address: ramesh.p@tanmayeehospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Trimurti Multispecialty Hospital
+1.	Doctor Name: Dr. Anil Trimurti
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543680
+ Email Address: anil.t@trimurtihospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Pediatrics – 12 years
+ Contact Number: +91 9876543681
+ Email Address: priya.m@trimurtihospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543682
+ Email Address: ramesh.p@trimurtihospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Tulsi Eye Hospitals
+1.	Doctor Name: Dr. Rajesh Tulsi
+ Department / Specialization: Ophthalmology – 13 years
+ Contact Number: +91 9876543690
+ Email Address: rajesh.t@tulsieye.com
+ Qualifications: MBBS, MS (Ophthalmology)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Sneha Kulkarni
+ Department / Specialization: Retina Specialist – 11 years
+ Contact Number: +91 9876543691
+ Email Address: sneha.k@tulsieye.com
+ Qualifications: MBBS, DNB (Ophthalmology)
+ Consultation Fee: ₹650
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Anil Patil
+ Department / Specialization: Cataract Specialist – 9 years
+ Contact Number: +91 9876543692
+ Email Address: anil.p@tulsieye.com
+ Qualifications: MBBS, DNB (Ophthalmology)
+ Consultation Fee: ₹550
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 3:00 PM
+
+Hospital Name: Usha Hospital
+1.	Doctor Name: Dr. Anil Usha
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543700
+ Email Address: anil.u@ushahospital.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Pediatrics – 12 years
+ Contact Number: +91 9876543701
+ Email Address: priya.m@ushahospital.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543702
+ Email Address: ramesh.p@ushahospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Vakratunda Multispeciality Hospital
+1.	Doctor Name: Dr. Sanjay Vakratunda
+ Department / Specialization: Cardiology – 15 years
+ Contact Number: +91 9876543710
+ Email Address: sanjay.v@vakratundahospital.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹800
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Neurology – 12 years
+ Contact Number: +91 9876543711
+ Email Address: priya.m@vakratundahospital.com
+ Qualifications: MBBS, MD, DM (Neurology)
+ Consultation Fee: ₹850
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: General Surgery – 13 years
+ Contact Number: +91 9876543712
+ Email Address: ramesh.p@vakratundahospital.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Vijan Cardiac & Critical Care Centre
+1.	Doctor Name: Dr. Anil Vijan
+ Department / Specialization: Cardiology – 15 years
+ Contact Number: +91 9876543720
+ Email Address: anil.v@vijancardiac.com
+ Qualifications: MBBS, MD, DM (Cardiology)
+ Consultation Fee: ₹850
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Cardiac Surgery – 12 years
+ Contact Number: +91 9876543721
+ Email Address: priya.m@vijancardiac.com
+ Qualifications: MBBS, MCh (Cardiothoracic Surgery)
+ Consultation Fee: ₹900
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Critical Care – 13 years
+ Contact Number: +91 9876543722
+ Email Address: ramesh.p@vijancardiac.com
+ Qualifications: MBBS, MD (Critical Care)
+ Consultation Fee: ₹700
+ Visiting Hours / Timings: 24x7
+
+Hospital Name: Vijay Nursing Home
+1.	Doctor Name: Dr. Sanjay Vijay
+ Department / Specialization: General Medicine – 14 years
+ Contact Number: +91 9876543730
+ Email Address: sanjay.v@vijaynursing.com
+ Qualifications: MBBS, MD
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Priya More
+ Department / Specialization: Pediatrics – 12 years
+ Contact Number: +91 9876543731
+ Email Address: priya.m@vijaynursing.com
+ Qualifications: MBBS, DCH
+ Consultation Fee: ₹450
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 3:00 PM
+3.	Doctor Name: Dr. Ramesh Patil
+ Department / Specialization: Surgery – 13 years
+ Contact Number: +91 9876543732
+ Email Address: ramesh.p@vijaynursing.com
+ Qualifications: MBBS, MS (Surgery)
+ Consultation Fee: ₹600
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+
+Hospital Name: Vimal ENT Hospital
+1.	Doctor Name: Dr. Rajesh Vimal
+ Department / Specialization: ENT – 13 years
+ Contact Number: +91 9876543740
+ Email Address: rajesh.v@vimalent.com
+ Qualifications: MBBS, MS (ENT)
+ Consultation Fee: ₹500
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 4:00 PM
+2.	Doctor Name: Dr. Sneha Kulkarni
+ Department / Specialization: ENT & Sinus Specialist – 11 years
+ Contact Number: +91 9876543741
+ Email Address: sneha.k@vimalent.com
+ Qualifications: MBBS, DNB (ENT)
+ Consultation Fee: ₹650
+ Visiting Hours / Timings: Mon-Sat, 11:00 AM – 4:00 PM
+3.	Doctor Name: Dr. Anil Patil
+ Department / Specialization: ENT Surgery – 9 years
+ Contact Number: +91 9876543742
+ Email Address: anil.p@vimalent.com
+ Qualifications: MBBS, DNB (ENT)
+ Consultation Fee: ₹550
+ Visiting Hours / Timings: Mon-Fri, 10:00 AM – 3:00 PM
+

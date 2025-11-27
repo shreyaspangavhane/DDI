@@ -1,0 +1,620 @@
+"use client"
+
+import { useState, useRef, useEffect } from "react"
+import { Stethoscope, Users, Send, Mic, MicOff, X } from "lucide-react"
+import Link from "next/link"
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription, SheetClose } from "@/components/ui/sheet"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Card, CardContent, CardFooter } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import connect from "@/lib/mongodb"
+import doctorModal from "@/lib/modals/doctorModal"
+import { newDoctorsData } from "@/lib/newDoctorsData"; // Import newDoctorsData
+import { useRouter, useSearchParams } from "next/navigation"
+import { analyzeSymptoms } from "@/lib/symptomAnalyzer"
+import { useDispatch } from "react-redux"
+import { setSelectedHospital } from "@/redux/slice/hospitalSlice"
+import { newHospitalsData } from "@/lib/newHospitalsData";
+
+// Interfaces
+interface Message {
+  id: string
+  content: string
+  role: "user" | "assistant"
+  timestamp: string
+}
+
+// Updated Doctor interface to match your actual data structure in lib/newDoctorsData.ts
+interface Doctor {
+  _id: string;
+  name: string;
+  specialization: string;
+  experienceYears: number;
+  contactNumber: string;
+  email: string;
+  qualifications: string;
+  consultationFee: string;
+  visitingHours: string;
+  hospitalId: string;
+  hospitalName: string;
+  image?: string;
+  ratings?: {
+    average: number;
+    reviews: number;
+  };
+  status: "active" | "inactive"; // Explicitly define status type
+  weeklyAvailability?: {
+    monday?: string[];
+    tuesday?: string[];
+    wednesday?: string[];
+    thursday?: string[];
+    friday?: string[];
+    saturday?: string[];
+    sunday?: string[];
+  };
+  availableSlots?: any[]; // Made optional for now if not always present
+  updatedAt?: string;
+}
+
+export default function ChatPage() {
+  // State declarations
+  const [messages, setMessages] = useState<Message[]>([
+    {
+      id: "1",
+      content: "Hello! I'm MediAssistant. Please describe your symptoms, and I'll recommend the best doctor for you.",
+      role: "assistant",
+      timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+    }
+  ])
+  const [input, setInput] = useState("")
+  const [isListening, setIsListening] = useState(false)
+  const [isTyping, setIsTyping] = useState(false)
+  const [isProcessing, setIsProcessing] = useState(false)
+  const [allDoctors, setAllDoctors] = useState<Doctor[]>([])
+  const [foundDoctors, setFoundDoctors] = useState<Doctor[]>([])
+  const [showDoctorResults, setShowDoctorResults] = useState(false)
+  const [currentSpecialty, setCurrentSpecialty] = useState<string | null>(null)
+  const [isLoading, setIsLoading] = useState(true)
+  const router = useRouter()
+  const searchParams = useSearchParams()
+  const dispatch = useDispatch()
+
+  // Refs
+  const messagesEndRef = useRef<HTMLDivElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
+  const recognitionRef = useRef<any>(null)
+
+  // Scroll to bottom of messages
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
+  }, [messages])
+
+  // New useEffect to handle URL parameter message
+  useEffect(() => {
+    // Get the message from URL parameters
+    const urlMessage = searchParams.get('message')
+    
+    // If there's a message, process it automatically
+    if (urlMessage) {
+      // Remove the message from URL to prevent reprocessing
+      const newSearchParams = new URLSearchParams(searchParams.toString())
+      newSearchParams.delete('message')
+      router.replace(`/chat?${newSearchParams.toString()}`)
+
+      // Set the input and automatically submit
+      setInput(urlMessage)
+      
+      // Use a timeout to ensure component is fully loaded
+      setTimeout(() => {
+        handleSubmit(new Event('submit') as any)
+      }, 500)
+    }
+  }, [searchParams, router])
+
+  // Load all doctors on component mount
+  useEffect(() => {
+    const fetchAllDoctors = async () => {
+      try {
+        setIsLoading(true)
+        const doctors = newDoctorsData; // Use hardcoded data
+        console.log("Fetched doctors:", doctors)
+        setAllDoctors(doctors)
+      } catch (error) {
+        console.error("Error fetching doctors:", error)
+      } finally {
+        setIsLoading(false)
+      }
+    }
+
+    fetchAllDoctors()
+  }, [])
+
+  // Set up speech recognition
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
+      if (SpeechRecognition) {
+        const recognition = new SpeechRecognition()
+        recognition.continuous = false
+        recognition.interimResults = false
+        recognition.lang = 'en-US'
+
+        recognition.onresult = (event: any) => {
+          const transcript = event.results[0][0].transcript
+          setInput(transcript)
+        }
+
+        recognition.onend = () => {
+          setIsListening(false)
+        }
+
+        recognitionRef.current = recognition
+      }
+    }
+
+    // Clean up
+    return () => {
+      if (recognitionRef.current) {
+        recognitionRef.current.onend = null
+        recognitionRef.current.onresult = null
+      }
+    }
+  }, [])
+
+  // Analyze symptoms and find matching doctors from already loaded doctors
+  const processSymptoms = (symptoms: string) => {
+    try {
+      // 1. First analyze the symptoms to determine specialty using our comprehensive analyzer
+      const analysisResult = analyzeSymptoms(symptoms);
+      const detectedSpecialty = analysisResult.specialty;
+
+      setCurrentSpecialty(detectedSpecialty);
+
+      // 2. Filter doctors with matching specialty from the pre-loaded list
+      // First try exact match
+      let matchingDoctors = allDoctors.filter(doctor =>
+        doctor.specialization.toLowerCase() === detectedSpecialty.toLowerCase()
+      );
+
+      // If no exact matches, try partial matches
+      if (matchingDoctors.length === 0) {
+        matchingDoctors = allDoctors.filter(doctor =>
+          doctor.specialization.toLowerCase().includes(detectedSpecialty.toLowerCase()) ||
+          detectedSpecialty.toLowerCase().includes(doctor.specialization.toLowerCase())
+        );
+      }
+
+      // If still no matches, check for common specialty variations
+      if (matchingDoctors.length === 0) {
+        const specialtyVariations: Record<string, string[]> = {
+          "Cardiologist": ["Heart", "Cardiac"],
+          "Neurologist": ["Neuro", "Brain"],
+          "Gastroenterologist": ["Gastro", "Digestive"],
+          "Dermatologist": ["Skin", "Derma"],
+          "Orthopedist": ["Ortho", "Bone", "Joint"],
+          "Ophthalmologist": ["Eye", "Ophthalmic"],
+          "Otolaryngologist": ["ENT", "Ear", "Nose", "Throat"],
+          "Pulmonologist": ["Lung", "Respiratory", "Pulmonary"],
+          "Gynecologist": ["Gynec", "Women's Health", "OB/GYN"],
+          "Urologist": ["Urology", "Urinary"]
+        };
+
+        const variations = specialtyVariations[detectedSpecialty] || [];
+        if (variations.length > 0) {
+          matchingDoctors = allDoctors.filter(doctor =>
+            variations.some(variation =>
+              doctor.specialization.toLowerCase().includes(variation.toLowerCase())
+            )
+          );
+        }
+      }
+
+      console.log("Matching doctors:", matchingDoctors);
+
+      // Sort doctors by rating (highest first)
+      const sortedDoctors = matchingDoctors.sort((a: Doctor, b: Doctor) => (b.ratings?.average || 0) - (a.ratings?.average || 0));
+
+      // Generate a more informative response based on analysis
+      let responseText = `Based on your symptoms, I recommend seeing a ${detectedSpecialty}.`;
+
+      // Add matched symptoms if available
+      if (analysisResult.matchedSymptoms && analysisResult.matchedSymptoms.length > 0) {
+        responseText += ` I noticed you mentioned ${analysisResult.matchedSymptoms.slice(0, 3).join(", ")}`;
+        if (analysisResult.matchedSymptoms.length > 3) {
+          responseText += ` and other symptoms`;
+        }
+        responseText += ".";
+      }
+
+      // Add specialty description if available
+      if (analysisResult.description) {
+        responseText += ` ${analysisResult.description}`;
+      }
+
+      // Add doctor availability
+      responseText += ` I've found ${sortedDoctors.length > 0 ? 'some excellent specialists' : 'no specialists'} for you.`;
+
+      // Return top doctors and assistant response
+      return {
+        specialty: detectedSpecialty,
+        doctors: sortedDoctors, // Get all sorted doctors
+        response: responseText
+      };
+    } catch (error) {
+      console.error("Error analyzing symptoms:", error);
+      return {
+        specialty: "General Physician",
+        doctors: [],
+        response: "I couldn't fully analyze your symptoms. Please consider consulting a General Physician who can help evaluate your condition."
+      };
+    }
+  }
+
+  // Handle form submission
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!input.trim() || isProcessing) return
+
+    const userMessage = input.trim()
+    setInput("")
+    setIsProcessing(true)
+
+    // Add user message to chat
+    const newUserMessage: Message = {
+      id: Date.now().toString(),
+      content: userMessage,
+      role: "user",
+      timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+    }
+
+    setMessages(prev => [...prev, newUserMessage])
+
+    // Show typing indicator
+    setIsTyping(true)
+
+    // Process the message and get response
+    setTimeout(() => {
+      try {
+        // Check if doctors have been loaded
+        if (isLoading) {
+          const loadingMessage: Message = {
+            id: (Date.now() + 1).toString(),
+            content: "I'm still loading doctor information. Please wait a moment and try again.",
+            role: "assistant",
+            timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+          }
+
+          setMessages(prev => [...prev, loadingMessage])
+          setIsTyping(false)
+          setIsProcessing(false)
+          return
+        }
+
+        // Analyze symptoms and get doctors from pre-loaded list
+        const result = processSymptoms(userMessage)
+
+        // Add assistant response to chat
+        const newAssistantMessage: Message = {
+          id: (Date.now() + 1).toString(),
+          content: result.response,
+          role: "assistant",
+          timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+        }
+
+        setMessages(prev => [...prev, newAssistantMessage])
+        setIsTyping(false)
+
+        // Update doctors list and show results
+        if (result.doctors && result.doctors.length > 0) {
+          setFoundDoctors(result.doctors)
+          setTimeout(() => {
+            setShowDoctorResults(true)
+          }, 1000)
+        }
+      } catch (error) {
+        console.error("Error processing message:", error)
+
+        // Add error message
+        const errorMessage: Message = {
+          id: (Date.now() + 1).toString(),
+          content: "Sorry, I encountered an error processing your request. Please try again.",
+          role: "assistant",
+          timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+        }
+
+        setMessages(prev => [...prev, errorMessage])
+        setIsTyping(false)
+      } finally {
+        setIsProcessing(false)
+      }
+    }, 1000)
+  }
+
+  // Toggle voice recognition
+  const toggleVoiceRecognition = () => {
+    if (isListening) {
+      recognitionRef.current?.stop()
+      setIsListening(false)
+    } else {
+      try {
+        recognitionRef.current?.start()
+        setIsListening(true)
+      } catch (error) {
+        console.error("Error starting speech recognition:", error)
+      }
+    }
+  }
+
+  const bookAppointment = (doctor: Doctor) => {
+    if (!doctor || !doctor.hospitalId) {
+      alert('Invalid doctor details');
+      return;
+    }
+
+    const hospital = newHospitalsData.find(h => h._id === doctor.hospitalId);
+
+    if (!hospital) {
+      alert('Hospital not found for the selected doctor.');
+      return;
+    }
+
+    // Close the doctor results sheet
+    setShowDoctorResults(false);
+
+    // Add a message to the chat indicating booking in progress
+    const bookingMessage: Message = {
+      id: Date.now().toString(),
+      content: `I'm booking your appointment with Dr. ${doctor.name}, ${doctor.specialization}. Please wait...`,
+      role: "assistant",
+      timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+    };
+
+    setMessages(prev => [...prev, bookingMessage]);
+
+    // Dispatch the selected hospital to Redux
+    dispatch(setSelectedHospital(hospital));
+
+    // Navigate to the booking flow with the userId and pre-selected doctor
+    // Assuming a patient context, you might need to get the actual userId dynamically
+    // For now, let's use a placeholder or assume it's already in the URL.
+    // The `/patients/[userId]/new-appointment` route expects `userId` in params.
+    const currentUserId = searchParams.get("userId") || "123"; // Get userId from URL or use a default
+    router.push(`/patients/${currentUserId}/new-appointment?doctorId=${doctor._id}&hospitalId=${doctor.hospitalId}`);
+  };
+
+  // Function to get availability status text from weeklyAvailability
+  const getAvailabilityText = (doctor: Doctor) => {
+    // First check if weeklyAvailability exists
+    if (!doctor.weeklyAvailability) {
+      return "Availability unknown";
+    }
+
+    const daysOfWeek = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
+
+    try {
+      const availableDays = daysOfWeek.filter(day => {
+        // Safe access with optional chaining
+        const dayAvailability = doctor.weeklyAvailability[day as keyof typeof doctor.weeklyAvailability];
+        return Array.isArray(dayAvailability) && dayAvailability.length > 0;
+      });
+
+      if (availableDays.length === 0) return "No availability";
+      if (availableDays.length > 3) return "Available most days";
+
+      return `Available on ${availableDays.map(day => day.charAt(0).toUpperCase() + day.slice(1)).join(', ')}`;
+    } catch (error) {
+      console.error("Error processing availability for doctor:", doctor.name, error);
+      return "Availability info unavailable";
+    }
+  }
+
+  return (
+    <div className="h-screen flex flex-col bg-gradient-to-b from-teal-950 to-black overflow-hidden">
+      {/* Header */}
+      <header className="flex justify-between items-center px-4 sm:px-6 py-3 bg-teal-900/70 border-b border-teal-700/30">
+        <Link href="/" className="cursor-pointer">
+          <div className="flex items-center space-x-2">
+            <img
+              src="https://img.icons8.com/arcade/64/hospital.png"
+              alt="Logo"
+              className="h-8 w-8 sm:h-10 sm:w-10"
+            />
+            <div className="text-base sm:text-lg font-bold text-teal-400">Assistant</div>
+          </div>
+        </Link>
+
+        <Button
+          onClick={toggleVoiceRecognition}
+          variant="ghost"
+          size="icon"
+          className={`rounded-full ${isListening ? "bg-red-500/20 text-red-400 animate-pulse" : "bg-teal-800/30 hover:bg-teal-800/50"}`}
+          aria-label={isListening ? "Stop listening" : "Start voice assistant"}
+        >
+          {isListening ? <MicOff size={18} className="text-red-400" /> : <Mic size={18} className="text-teal-300" />}
+        </Button>
+      </header>
+
+      <div className="flex flex-1 overflow-hidden">
+        {/* Chat Messages */}
+        <div className="flex-1 flex flex-col">
+          <div className="flex-1 overflow-y-auto px-3 sm:px-4 py-2 space-y-4 scrollbar-hide">
+            {messages.map((message) => (
+              <div key={message.id} className={`flex ${message.role === "user" ? "justify-end" : "justify-start"}`}>
+                {message.role === "assistant" && (
+                  <div className="h-7 w-7 sm:h-8 sm:w-8 rounded-full bg-teal-700 flex items-center justify-center mr-2 mt-1 flex-shrink-0">
+                    <Stethoscope size={14} className="text-white sm:hidden" />
+                    <Stethoscope size={16} className="text-white hidden sm:block" />
+                  </div>
+                )}
+                <div className="flex flex-col max-w-[80%] sm:max-w-[75%]">
+                  <div
+                    className={`p-2 sm:p-3 rounded-lg shadow-md ${message.role === "user"
+                        ? "bg-gradient-to-r from-teal-600 to-teal-700 text-white rounded-br-none"
+                        : "bg-gradient-to-r from-teal-900 to-teal-950 border border-teal-700/50 text-teal-100 rounded-bl-none"
+                      }`}
+                  >
+                    <div className="text-sm sm:text-base">{message.content}</div>
+                  </div>
+                  <div
+                    className={`text-xs mt-1 text-teal-400/70 ${message.role === "user" ? "text-right" : "text-left"}`}
+                  >
+                    {message.timestamp}
+                  </div>
+                </div>
+                {message.role === "user" && (
+                  <div className="h-7 w-7 sm:h-8 sm:w-8 rounded-full bg-teal-600 flex items-center justify-center ml-2 mt-1 flex-shrink-0">
+                    <Users size={14} className="text-white sm:hidden" />
+                    <Users size={16} className="text-white hidden sm:block" />
+                  </div>
+                )}
+              </div>
+            ))}
+            {isTyping && (
+              <div className="flex justify-start">
+                <div className="h-7 w-7 sm:h-8 sm:w-8 rounded-full bg-teal-700 flex items-center justify-center mr-2 flex-shrink-0">
+                  <Stethoscope size={14} className="text-white sm:hidden" />
+                  <Stethoscope size={16} className="text-white hidden sm:block" />
+                </div>
+                <div className="bg-gradient-to-r from-teal-900 to-teal-950 border border-teal-700/50 text-teal-100 p-2 sm:p-3 rounded-lg rounded-bl-none">
+                  <div className="flex space-x-1">
+                    <div
+                      className="h-2 w-2 bg-teal-400 rounded-full animate-bounce"
+                      style={{ animationDelay: "0ms" }}
+                    ></div>
+                    <div
+                      className="h-2 w-2 bg-teal-400 rounded-full animate-bounce"
+                      style={{ animationDelay: "150ms" }}
+                    ></div>
+                    <div
+                      className="h-2 w-2 bg-teal-400 rounded-full animate-bounce"
+                      style={{ animationDelay: "300ms" }}
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            )}
+            <div ref={messagesEndRef} />
+          </div>
+
+          {/* Input Form */}
+          <div className="p-3 sm:p-4 border-t border-teal-700/30 bg-teal-900/30 backdrop-blur-sm">
+            <form onSubmit={handleSubmit} className="flex items-center gap-2">
+              <Input
+                ref={inputRef}
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                placeholder={isListening ? "Listening..." : "Describe your symptoms (e.g., headache, flu, chest pain)"}
+                className="flex-1 bg-teal-800/50 border border-teal-700/50 rounded-full py-2 sm:py-3 px-3 sm:px-4 text-sm sm:text-base text-teal-100 placeholder-teal-400/70 focus:outline-none focus:ring-2 focus:ring-teal-500/50"
+                disabled={isProcessing}
+              />
+              <Button
+                type="button"
+                onClick={toggleVoiceRecognition}
+                variant="ghost"
+                size="icon"
+                className={`rounded-full ${isListening ? "bg-red-500/20 text-red-400 animate-pulse" : "bg-teal-700/50 text-teal-300"
+                  } hover:bg-teal-700/70 transition-colors`}
+                disabled={isProcessing}
+              >
+                {isListening ? <MicOff size={18} /> : <Mic size={18} />}
+              </Button>
+              <Button
+                type="submit"
+                className="rounded-full bg-teal-600 hover:bg-teal-500 text-white"
+                disabled={!input.trim() || isProcessing}
+              >
+                <Send size={18} />
+              </Button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      {/* Doctor Results Sheet */}
+      <Sheet open={showDoctorResults} onOpenChange={setShowDoctorResults}>
+        <SheetContent
+          side="right"
+          className="w-full sm:max-w-md bg-teal-900/95 backdrop-blur-sm border-l border-teal-700/30 p-0"
+        >
+          <SheetHeader className="p-4 border-b border-teal-700/30">
+            <div className="flex justify-between items-center">
+              <SheetTitle className="text-teal-300">Recommended Doctors</SheetTitle>
+              <button
+                onClick={() => setShowDoctorResults(false)}
+                className="text-teal-400 hover:text-teal-300"
+                title="Close doctor recommendations"
+                aria-label="Close doctor recommendations"
+              >
+                
+              </button>
+            </div>
+            <SheetDescription className="text-teal-400/80">
+              {currentSpecialty ? `Top ${currentSpecialty} specialists for you` : "Specialists based on your symptoms"}
+            </SheetDescription>
+          </SheetHeader>
+          <div className="p-4 space-y-4 overflow-y-auto max-h-[calc(100vh-8rem)] scrollbar-hide">
+            {foundDoctors.length > 0 ? (
+              foundDoctors.map((doctor) => (
+                <Card
+                  key={doctor._id}
+                  className="bg-teal-800/30 border-teal-700/30 hover:bg-teal-800/50 transition-colors"
+                >
+                  <CardContent className="p-4">
+                    <div className="flex items-start">
+                      <div className="flex-shrink-0 w-12 h-12 mr-3">
+                        <img
+                          src={doctor.image || "https://img.icons8.com/ios/50/doctor-male--v1.png"}
+                          alt={doctor.name}
+                          className="w-full h-full object-cover rounded-full"
+                        />
+                      </div>
+                      <div className="flex-1">
+                        <div className="flex justify-between items-start">
+                          <h4 className="font-bold text-teal-200">{doctor.name}</h4>
+                          <Badge variant="outline" className="bg-yellow-500/10 text-yellow-400 border-yellow-400/30">
+                            {doctor.ratings?.average ? `${doctor.ratings.average} ★` : 'N/A ★'} 
+                          </Badge>
+                        </div>
+                        <p className="text-sm text-teal-300 mt-1">{doctor.specialization}</p>
+                        <div className="mt-2 text-xs text-teal-400/80">
+                          <p>{doctor.experienceYears} years experience</p>
+                          <p>Qualifications: {doctor.qualifications}</p>
+                          <p>Consultation Fee: {doctor.consultationFee}</p>
+                          <p>Visiting Hours: {doctor.visitingHours}</p>
+                          <p>{doctor.ratings?.reviews || 0} reviews</p>
+                          <p>{getAvailabilityText(doctor)}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </CardContent>
+                  <CardFooter className="p-4 pt-0">
+                    <Button
+                      onClick={() => bookAppointment(doctor)}
+                      className="w-full bg-teal-600 hover:bg-teal-500 text-white"
+                    >
+                      Book Appointment
+                    </Button>
+                  </CardFooter>
+                </Card>
+              ))
+            ) : (
+              <div className="text-center p-6">
+                <p className="text-teal-300">No specialists found for your symptoms.</p>
+                <p className="text-teal-400/80 mt-2">Try describing your symptoms in more detail.</p>
+              </div>
+            )}
+          </div>
+          <div className="p-4 border-t border-teal-700/30 px-4 py-2 pb-8 ">
+            <Button
+              onClick={() => setShowDoctorResults(false)}
+              className="w-full bg-transparent border mb-5 border-teal-500 text-teal-300 hover:bg-teal-800/50"
+            >
+              Return to chat
+            </Button>
+          </div>
+        </SheetContent>
+      </Sheet>
+    </div>
+  )
+}
